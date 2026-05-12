@@ -8,9 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Marie Skłodowska-Curie Actions</p>
-    <p>Doctoral Fellow</p>
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
