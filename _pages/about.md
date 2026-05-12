@@ -27,8 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Marie Skłodowska-Curie Actions Joint Doctoral Fellow in Physics, affiliated with the University of Padova, Italy, and the University of Cyprus, Cyprus. My doctoral research is part of the AQTIVATE project and focuses on quantum simulation, tensor networks, quantum computing algorithms, and quantum information.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My current work is centered on benchmarking quantum algorithms using tensor-network-based quantum circuit emulators. In particular, I study the performance and scalability of algorithms such as the Quantum Fourier Transform and Shor’s algorithm using MPS and TTN simulations, with attention to error propagation, simulation quality, and computational efficiency.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before beginning my PhD, I completed a BS-MS Dual Degree in Physics, with a minor in Data Science and Engineering, from the Indian Institute of Science Education and Research, Bhopal. My master’s thesis explored quantum machine learning methods for determining exchange-correlation potentials in many-body systems, combining quantum neural networks, artificial neural networks, and first-principles computational data.
+
+I have also worked on projects involving quantum networks, quantum many-body systems, and machine learning for physical sciences through research experiences at IISER Bhopal, the University of Freiburg, and the London Mathematical Laboratory Summer School. Alongside my research, I contribute to the Quantum TEA software ecosystem, including qtealeaves and qmatchatea.
+
+My broader research interests include quantum simulation, tensor networks, quantum algorithms, quantum information, scientific computing, and machine learning applications in physics.
