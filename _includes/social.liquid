@@ -1,27 +1,17 @@
-{% if site.social.email %}
-  <a href="mailto:{{ site.social.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
+{% if site.data.socials.email %}
+  <a href="mailto:{{ site.data.socials.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
 
-{% if site.social.github_username %}
-  <a href="https://github.com/{{ site.social.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+{% if site.data.socials.scholar_userid %}
+  <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
 {% endif %}
 
-{% if site.social.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ site.social.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+{% if site.data.socials.cv_pdf %}
+  <a href="{{ site.data.socials.cv_pdf | relative_url }}" title="CV" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i></a>
 {% endif %}
 
-{% if site.social.scholar_userid %}
-  <a href="https://scholar.google.com/citations?user={{ site.social.scholar_userid }}" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-scholar"></i></a>
-{% endif %}
-
-{% if site.social.orcid_id %}
-  <a href="https://orcid.org/{{ site.social.orcid_id }}" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-orcid"></i></a>
-{% endif %}
-
-{% if site.social.x_username %}
-  <a href="https://twitter.com/{{ site.social.x_username }}" title="X (Twitter)" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
-{% endif %}
-
-{% if site.social.medium_username %}
-  <a href="https://medium.com/@{{ site.social.medium_username }}" title="Medium" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-medium"></i></a>
+{% if site.data.socials.custom_social %}
+  <a href="{{ site.data.socials.custom_social.url }}" title="{{ site.data.socials.custom_social.title }}" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.data.socials.custom_social.logo | relative_url }}" alt="{{ site.data.socials.custom_social.title }}" style="height: 1em; vertical-align: middle;">
+  </a>
 {% endif %}
