@@ -32,7 +32,7 @@ cv:
         score: ""
         courses: ""
         highlights:
-          - AQTIVATE project - Marie Skłodowska-Curie Actions Joint Doctoral Fellow.
+          - "AQTIVATE project - Marie Skłodowska-Curie Actions Joint Doctoral Fellow."
 
       - institution: Indian Institute of Science Education and Research (IISER), Bhopal
         location: Bhopal, India
@@ -41,8 +41,44 @@ cv:
         start_date: 2018
         end_date: 2023
         highlights:
-          - Major: Physics, Minor: Data Science and Engineering.
-          - GPA: 9.27/10.
+          - "Major: Physics, Minor: Data Science and Engineering."
+          - "GPA: 9.27/10."
+
+    Other Professional Training:
+      - name: Lattice Practices
+        date: 2024-01-01
+        issuer: The Cyprus Institute, Nicosia, Cyprus
+        icon: fa-solid fa-tag
+
+      - name: Foundations of Quantum Computing
+        date: 2024-01-01
+        issuer: Royal Holloway University of London, UK
+        icon: fa-solid fa-tag
+
+      - name: Summer School on Scientific Writing and Entrepreneurship
+        date: 2024-01-01
+        issuer: Vilnius University, Lithunia
+        icon: fa-solid fa-tag
+
+      - name: Quantum Computing and Tensor Networks
+        date: 2024-01-01
+        issuer: University of Padova, Italy
+        icon: fa-solid fa-tag
+
+      - name: Machine learning for science and engineering
+        date: 2024-01-01
+        issuer: TU Berlin, Germany
+        icon: fa-solid fa-tag
+
+      - name: Exascale computing and scalable algorithms
+        date: 2023-01-01
+        issuer: KTH, Stockholm, Sweden
+        icon: fa-solid fa-tag
+
+    Research Interests:
+      - name: Physics
+        icon: fa-solid fa-tag
+        keywords: "Quantum Simulation, Tensor Networks, Quantum Computing and Algorithms, Quantum Information"
 
     Research Experience:
       - company: Quantum Information and Matter Group
@@ -111,10 +147,10 @@ cv:
         url: 
         
     Software Contribution:
-      - title: Quantum TEA : qtealeaves
+      - title: "Quantum TEA : qtealeaves"
         url: https://doi.org/10.5281/zenodo.10498928
 
-      - title: Quantum TEA : qmatchatea
+      - title: "Quantum TEA : qmatchatea"
         url: https://doi.org/10.5281/zenodo.11619265
 
         
@@ -139,42 +175,4 @@ cv:
         summary: "Native speaker"
 
       - name: Italian
-        summary: "Basic"
-
-    Research Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Simulation, Tensor Networks, Quantum Computing and Algorithms, Quantum Information"
-
-    Other Professional Training:
-      - name: Lattice Practices
-        date: 2024-01-01
-        issuer: The Cyprus Institute, Nicosia, Cyprus
-        icon: fa-solid fa-tag
-
-      - name: Foundations of Quantum Computing
-        date: 2024-01-01
-        issuer: Royal Holloway University of London, UK
-        icon: fa-solid fa-tag
-
-      - name: Summer School on Scientific Writing and Entrepreneurship
-        date: 2024-01-01
-        issuer: Vilnius University, Lithunia
-        icon: fa-solid fa-tag
-
-      - name: Quantum Computing and Tensor Networks
-        date: 2024-01-01
-        issuer: University of Padova, Italy
-        icon: fa-solid fa-tag
-
-      - name: Machine learning for science and engineering
-        date: 2024-01-01
-        issuer: TU Berlin, Germany
-        icon: fa-solid fa-tag
-
-      - name: Exascale computing and scalable algorithms
-        date: 2023-01-01
-        issuer: KTH, Stockholm, Sweden
-        icon: fa-solid fa-tag
-
-    
+        summary: "Basic"    
