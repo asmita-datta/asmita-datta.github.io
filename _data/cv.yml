@@ -1,6 +1,6 @@
 cv:
   name: Asmita Datta
-  label: Doctotal Candidate
+  label: Doctoral Candidate
   email: asmita.datta@unipd.it
   location: Padova, Italy
   image: ""
@@ -44,7 +44,7 @@ cv:
           - "Major: Physics, Minor: Data Science and Engineering."
           - "GPA: 9.27/10."
 
-    Other Professional Training:
+    Certificates:
       - name: Lattice Practices
         date: 2024-01-01
         issuer: The Cyprus Institute, Nicosia, Cyprus
@@ -75,12 +75,12 @@ cv:
         issuer: KTH, Stockholm, Sweden
         icon: fa-solid fa-tag
 
-    Research Interests:
+    Interests:
       - name: Physics
         icon: fa-solid fa-tag
         keywords: "Quantum Simulation, Tensor Networks, Quantum Computing and Algorithms, Quantum Information"
 
-    Research Experience:
+    Experience:
       - company: Quantum Information and Matter Group
         position: Doctoral Researcher
         location: University of Padova
@@ -101,7 +101,7 @@ cv:
           - Developed ANN and Quantum Neural Networks (QNN) models to map the HSE xc potential range separation parameter $\omega$ based on material properties for 40 semiconducting and insulating materials. Generated training databases using VASP calculations and extracted material features via pymatgen from the Materials Project.
 
       - company: Quantum Optics and Statistics Group, University of Freiburg, Germany
-        position: DAAD WISE Scho
+        position: DAAD WISE Scholar
         location: Freiburg, Germany
         start_date: May 2022
         end_date: July 2022
@@ -129,7 +129,7 @@ cv:
       - title: Chanakya Fellowship by the I-HUB QTF, IISER Pune for MS Thesis
         date: 2022
 
-      - title: DAAD WISE Scholarship at University of Freiburg, Germany for Summer Research Insternship
+      - title: DAAD WISE Scholarship at University of Freiburg, Germany for Summer Research Internship
         date: 2022
 
       - title: MITACS Globalink Research Internship at University of Regina, Canada. (\textit{Deferred for DAAD WISE})
@@ -146,7 +146,7 @@ cv:
         releaseDate: ""
         url: 
         
-    Software Contribution:
+    Projects:
       - title: "Quantum TEA : qtealeaves"
         url: https://doi.org/10.5281/zenodo.10498928
 
@@ -154,7 +154,7 @@ cv:
         url: https://doi.org/10.5281/zenodo.11619265
 
         
-    Technical Skills:
+    Skills:
       - name: Programming
         icon: fa-solid fa-hashtag
         keywords: "C, C++, Python (advanced) || MATLAB, Mathematica, Java (basic)"
