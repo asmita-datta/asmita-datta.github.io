@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
+title: Quantum Matcha TEA
 description: another without an image
 img:
 importance: 3
-category: fun
+category: software
 ---
 
 Every project has a beautiful feature showcase page.
