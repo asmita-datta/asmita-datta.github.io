@@ -147,10 +147,10 @@ cv:
         url: 
         
     Projects:
-      - title: "Quantum TEA : qtealeaves"
+      - name: Quantum TEA : qtealeaves
         url: https://doi.org/10.5281/zenodo.10498928
 
-      - title: "Quantum TEA : qmatchatea"
+      - name: Quantum TEA : qmatchatea
         url: https://doi.org/10.5281/zenodo.11619265
 
         
