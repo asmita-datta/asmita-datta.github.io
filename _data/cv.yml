@@ -143,14 +143,15 @@ cv:
         authors:
           - A. Datta, F. Baccari, I. Siloi and S. Montangero
         publisher: Arxiv (in preparation)
+        summary: "A. Datta, F. Baccari, I. Siloi and S. Montangero."
         releaseDate: ""
         url: 
         
     Projects:
-      - name: Quantum TEA : qtealeaves
+      - name: "Quantum TEA : qtealeaves"
         url: https://doi.org/10.5281/zenodo.10498928
 
-      - name: Quantum TEA : qmatchatea
+      - name: "Quantum TEA : qmatchatea"
         url: https://doi.org/10.5281/zenodo.11619265
 
         
