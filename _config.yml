@@ -12,8 +12,6 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Asmita Datta — Marie Skłodowska-Curie Doctoral Fellow in Physics at the University of Padova and the University of Cyprus. 
   Researcher in quantum computation, quantum simulation, tensor networks, quantum computing algorithms, and quantum information.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: Asmita Datta, quantum simulation, tensor networks, quantum computing, quantum information, MPS, TTN, University of Padova, AQTIVATE, IISER Bhopal Quantum, Padova Quantum, QuantumTea # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
