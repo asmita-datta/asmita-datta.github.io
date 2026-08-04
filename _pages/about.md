@@ -9,7 +9,7 @@ profile:
   image: IMG_2343.jpg
   image_circular: false
 
-selected_papers: false
+selected_papers: true
 
 social: true
 
