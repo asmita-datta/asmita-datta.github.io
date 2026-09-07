@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-10'
+  last_updated: '2026-09-07'
 papers:
   NVLu8IwAAAAJ:d1gkVwhDpl0C:
     citations: 2
@@ -10,6 +10,6 @@ papers:
     title: QUANTUM MACHINE LEARNING FOR DETERMINING EXCHANGE-CORRELATION POTENTIALS IN MANY-BODY SYSTEMS
     year: '2023'
   NVLu8IwAAAAJ:u5HHmVD_uO8C:
-    citations: 2
+    citations: 4
     title: 'Quantum TEA: qtealeaves'
     year: '2025'
