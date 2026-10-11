@@ -72,9 +72,9 @@ ninja.data = [{
           section: "News",},{id: "news-gave-a-contributed-talk-benchmarking-tensor-network-simulations-of-shor-s-algorithm-with-coherent-error-propagation-at-the-aqtivate-conference-larnaca-cyprus",
           title: 'Gave a contributed talk, “Benchmarking tensor network simulations of Shor’s algorithm with coherent...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-benchmarking-shor-39-s-algorithm-with-tensor-networks",
+          title: 'Benchmarking Shor&amp;#39;s algorithm with tensor networks',
+          description: "MPS simulations of the full gate-level Shor circuit under coherent errors.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-quantum-tea",
