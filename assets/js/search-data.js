@@ -51,7 +51,7 @@ ninja.data = [{
           section: "News",},{id: "news-started-a-secondment-at-cineca-bologna-italy-may-july-2025",
           title: 'Started a secondment at CINECA, Bologna, Italy (May–July 2025).',
           description: "",
-          section: "News",},{id: "news-our-team-s-software-ranked-second-overall-in-the-quantinuum-quantum-circuit-tensor-network-simulation-challenge-where-i-benchmarked-the-quantum-chemistry-suite-of-circuits-using-tensor-networks",
+          section: "News",},{id: "news-our-team-s-software-ranked-second-overall-in-the-quantinuum-quantum-circuit-tensor-network-simulation-challenge-results-where-i-benchmarked-the-quantum-chemistry-suite-of-circuits-using-tensor-networks",
           title: 'Our team’s software ranked second overall in the Quantinuum quantum circuit tensor network...',
           description: "",
           section: "News",},{id: "news-presented-the-poster-simulation-of-shor-s-prime-factorization-algorithm-on-quantum-matcha-tea-at-entangle-this-vi-100-years-of-quantum-madrid-spain",
