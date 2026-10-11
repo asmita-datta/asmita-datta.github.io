@@ -30,7 +30,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-started-a-secondment-at-cineca-bologna-italy-may-july-2025",
+        },{id: "news-attended-the-aqtivate-workshop-on-exascale-computing-and-scalable-algorithms-at-kth-royal-institute-of-technology-stockholm-sweden-nov-dec-2023",
+          title: 'Attended the AQTIVATE workshop on Exascale Computing and Scalable Algorithms at KTH Royal...',
+          description: "",
+          section: "News",},{id: "news-started-a-secondment-at-cineca-bologna-italy-may-july-2025",
           title: 'Started a secondment at CINECA, Bologna, Italy (May–July 2025).',
           description: "",
           section: "News",},{id: "news-our-team-s-software-ranked-second-overall-in-the-quantinuum-quantum-circuit-tensor-network-simulation-challenge-where-i-benchmarked-the-quantum-chemistry-suite-of-circuits-using-tensor-networks",
