@@ -30,7 +30,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-launched-this-new-website-sparkles-smile",
+        },{id: "news-started-a-secondment-at-cineca-bologna-italy-may-july-2025",
+          title: 'Started a secondment at CINECA, Bologna, Italy (May–July 2025).',
+          description: "",
+          section: "News",},{id: "news-launched-this-new-website-sparkles-smile",
           title: 'Launched this new website! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "projects-project-1",
