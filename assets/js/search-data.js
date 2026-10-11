@@ -54,7 +54,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-team-s-software-ranked-second-overall-in-the-quantinuum-quantum-circuit-tensor-network-simulation-challenge-results-where-i-benchmarked-the-quantum-chemistry-suite-of-circuits-using-tensor-networks",
           title: 'Our team’s software ranked second overall in the Quantinuum quantum circuit tensor network...',
           description: "",
-          section: "News",},{id: "news-presented-the-poster-simulation-of-shor-s-prime-factorization-algorithm-on-quantum-matcha-tea-at-entangle-this-vi-100-years-of-quantum-madrid-spain",
+          section: "News",},{id: "news-presented-the-poster-simulation-of-shor-s-prime-factorization-algorithm-on-quantum-matcha-tea-at-entangle-this-vi-100-years-of-quantum-ift-uam-csic-madrid-spain",
           title: 'Presented the poster “Simulation of Shor’s prime factorization algorithm on Quantum Matcha TEA”...',
           description: "",
           section: "News",},{id: "news-gave-a-contributed-talk-benchmarking-shor-s-algorithm-on-a-tensor-network-based-quantum-emulator-at-a-panorama-of-tensor-networks-kraków-poland",
