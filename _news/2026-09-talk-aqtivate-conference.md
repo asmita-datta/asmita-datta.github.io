@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Gave a contributed talk, *"Benchmarking tensor network simulations of Shor's algorithm with coherent error propagation"*, at the **AQTIVATE Conference**, Larnaca, Cyprus.
+Gave a contributed talk, *"Benchmarking tensor network simulations of Shor's algorithm with coherent error propagation"*, at the [**AQTIVATE Conference**](https://indico.global/event/16668/), Larnaca, Cyprus.
