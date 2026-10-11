@@ -603,3 +603,23 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+
+   .news-more {
+     text-align: right;
+     font-size: 0.875rem;
+     margin-top: -0.5rem;
+
+     a {
+       color: var(--global-theme-color);
+     }
+
+     .news-more-arrow {
+       display: inline-block;
+       transition: transform 0.2s ease;
+     }
+
+     a:hover .news-more-arrow {
+       transform: translateX(3px);
+     }
+   }
