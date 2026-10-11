@@ -79,7 +79,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-quantum-tea",
           title: 'Quantum TEA',
-          description: "a project that redirects to another website",
+          description: "qtealeaves — tensor network library of the Quantum TEA ecosystem.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-quantum-matcha-tea",
