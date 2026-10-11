@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started a secondment at **CINECA**, Bologna, Italy (May–July 2025).
+Started a secondment at [**CINECA**](https://www.cineca.it/en), Bologna, Italy (May–July 2025).
