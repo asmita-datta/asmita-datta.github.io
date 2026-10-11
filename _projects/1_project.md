@@ -1,81 +1,27 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Benchmarking Shor's algorithm with tensor networks
+description: MPS simulations of the full gate-level Shor circuit under coherent errors.
 importance: 1
 category: research
-related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**A. Datta, F. Baccari, I. Siloi and S. Montangero** — *Benchmarking tensor network simulations of Shor's algorithm with coherent error propagation* (in preparation, 2026).
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+[Slides (AQTIVATE Conference 2026)](https://indico.global/event/16668/contributions/168201/attachments/76891/149310/Shor_Asmita_AQTIVATE.pdf) · [Abstract](https://indico.global/event/16668/contributions/168201/)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Shor's algorithm is a natural benchmark for quantum emulators: the circuit is deep and fully compiled, its output can be verified, and it generates nontrivial entanglement. We simulate it on RSA-like semiprimes using the complete gate-level Vedral–Barenco–Ekert (VBE) modular exponentiation circuit, rather than a high-level arithmetic oracle, on a tensor-network quantum emulator based on Matrix Product States (MPS).
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The circuits use 7n + 2 qubits and O(n³) gates. Most runs involve around 100k gates, and the largest reaches about 4 million gates (26-bit numbers, 184 qubits). Toffoli gates are applied exactly as single MPOs of bond dimension 2, avoiding decomposition and extra truncation.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Figures of merit.** We track simulation quality with three complementary measures:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- a fidelity estimate built from the truncated singular values,
+- the Jensen–Shannon divergence between the ideal and MPS-sampled output distributions,
+- the normalized probability of successfully factoring the number.
 
-{% raw %}
+**Noiseless circuits.** We study how simulation complexity depends on the bit length and on the multiplicative order *r*. The bond dimension needed for typical circuits grows exponentially with bit length, and the entanglement of the ideal circuit is governed by *r*. This confirms, at the full gate level, behaviour previously reported for oracle-level simulations.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+**Coherent errors.** We model noise as systematic unitary over-rotations applied stochastically, with an over-rotation angle and a per-gate probability. These errors generally increase the bond dimension required, largely wash out the dependence on *r*, and reveal thresholds beyond which factoring fails.
