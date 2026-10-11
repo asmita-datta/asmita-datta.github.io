@@ -57,7 +57,7 @@ ninja.data = [{
           section: "News",},{id: "news-presented-the-poster-simulation-of-shor-s-prime-factorization-algorithm-on-quantum-matcha-tea-at-entangle-this-vi-100-years-of-quantum-ift-uam-csic-madrid-spain",
           title: 'Presented the poster “Simulation of Shor’s prime factorization algorithm on Quantum Matcha TEA”...',
           description: "",
-          section: "News",},{id: "news-gave-a-contributed-talk-benchmarking-shor-s-algorithm-on-a-tensor-network-based-quantum-emulator-at-a-panorama-of-tensor-networks-kraków-poland",
+          section: "News",},{id: "news-gave-a-contributed-talk-benchmarking-shor-s-algorithm-on-a-tensor-network-based-quantum-emulator-at-a-panorama-of-tensor-networks-jagiellonian-university-kraków-poland",
           title: 'Gave a contributed talk, “Benchmarking Shor’s algorithm on a tensor network-based quantum emulator”,...',
           description: "",
           section: "News",},{id: "news-started-a-secondment-at-desy-zeuthen-germany",
