@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: IMG_2343.jpg
+  image: IMG_2337.jpg
   image_circular: false
 
 selected_papers: true
